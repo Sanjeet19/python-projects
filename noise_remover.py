@@ -25,7 +25,7 @@ if __name__ == "__main__":
     lowcut = input("Input the value of lower cut-off frequwncy: ")
     highcut = input("Input the value of higher cut-off frequwncy: ")
 
-    # Plot the frequency response for a few different orders.
+    # Plot the frequency response for different orders.
     plt.figure(1)
     plt.clf()
     for order in [3, 6, 9]:
